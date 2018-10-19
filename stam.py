@@ -1,3 +1,12 @@
+"""
+Extract stem of Dutch verb
+
+>>> stam('lopen')
+'loop'
+
+>>> stam('loppen')
+'lop'
+"""
 def stam(infinitief):
     cut = infinitief[:-2]
 
